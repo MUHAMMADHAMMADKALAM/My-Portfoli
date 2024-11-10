@@ -1,7 +1,6 @@
 import Image from "next/image";
-import main from "../page";
 
-export default function Projests() {
+export default function Projects() {
   return (
     <main id="projects" className="bg-white pt-12 pb-16 px-4 justify-center items-center text-center">
       <div >

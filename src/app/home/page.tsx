@@ -1,11 +1,33 @@
+"use client";
 
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
+import About from "../about/page";
+import Skills from "../skills/page";
+import Projects from "../projects/page";
+import ContactUs from "../contact-us/page";
+import AOS from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from "react";
+
 
 
 export default function Home() {
+  useEffect (() => {
+    AOS.init({
+      easing: "ease-out-back",
+      duration: 1200,
+      delay: 100,
+      mirror: true,
+      anchorPlacement: "bottom-bottom",
+      offset: 160,
+    });
+    AOS.refresh()
+  } , []);
+
+
   return (
-    <main id="home" className=" justify-around pt-1">
+    <main className=" justify-around pt-1">
       <section className="mt-40 mx-10 md:mx-14 md:flex-row justify-around flex flex-col-reverse ">
 
         {/* Text Section */}
@@ -55,8 +77,14 @@ export default function Home() {
         </div>
 
       </section>
+    
+      <About />
+      <Skills />
+      <Projects /> 
+      <ContactUs />
 
 
     </main>
   )
+
 }
