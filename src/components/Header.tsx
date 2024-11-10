@@ -24,7 +24,7 @@ export default function Header() {
                     </div>
                     <ul className="hidden md:block ">
                         <li className="space-x-10  mx- my-5 text-white text-xl ">
-                            <Link className="hover:border-b-2 hover:text-yellow-500 border-yellow-500" href="/home">Home</Link>
+                            <Link className="hover:border-b-2 hover:text-yellow-500 border-yellow-500" href="/">Home</Link>
                             <Link className="hover:border-b-2 hover:text-yellow-500 border-yellow-500" href="#about">About</Link>
                             <Link className="hover:border-b-2 hover:text-yellow-500 border-yellow-500" href="#skills">Skills</Link>
                             <Link className="hover:border-b-2 hover:text-yellow-500 border-yellow-500" href="#projects">Projects</Link>
@@ -47,7 +47,7 @@ export default function Header() {
                         </SheetTitle>
                             <ul className=" my-5 text-white text-lg space-y-5">
 
-                                <li><Link className="hover:border-b-2 px-16 border-yellow-500 hover:text-yellow-500" href="/home">Home</Link></li>
+                                <li><Link className="hover:border-b-2 px-16 border-yellow-500 hover:text-yellow-500" href="/">Home</Link></li>
                                 <li><Link className="hover:border-b-2 px-16 border-yellow-500 hover:text-yellow-500" href="#about">About</Link></li>
                                 <li><Link className="hover:border-b-2 px-16 border-yellow-500 hover:text-yellow-500" href="#skills">Skills</Link></li>
                                 <li><Link className="hover:border-b-2 px-16 border-yellow-500 hover:text-yellow-500" href="#projects">Projects</Link></li>
