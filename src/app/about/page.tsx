@@ -23,7 +23,8 @@ export default function About() {
 
                     {/* Image Section */}
                     <div data-aos="zoom-in-up" className=" flex-1  justify-center items-center mx-auto lg:mr-10 mb-10 ">
-                        <Image className="object-cover rounded-full border-4 border-violet-950 shadow-lg shadow-violet-900 md:h-[370px] md:w-[270px] lg:h-[440px] lg:w-[300px]" src={'/my-dp.jpg'} alt="profile picture"
+                        <Image className="object-cover rounded-full border-4 border-violet-950 shadow-lg shadow-violet-900 md:h-[370px] md:w-[270px] lg:h-[440px] lg:w-[300px]"
+                            src={'/images/my-dp.png'} alt="profile picture"
                             height={400} width={320} />
                     </div>
 
