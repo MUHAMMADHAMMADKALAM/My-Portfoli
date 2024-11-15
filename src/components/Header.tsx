@@ -16,7 +16,7 @@ import {
 export default function Header() {
     return (
         <header className="flex justify-center">
-            <main data-aos="zoom-in-down" className="fixed backdrop:blur-md bg-opacity-10 rounded-full bg-violet-700 shadow-2xl mt-4 w-11/12 ">
+            <main data-aos="zoom-in-down" className="fixed backdrop:blur-md bg-opacity-10 rounded-full bg-violet-700 shadow-2xl mt-4 w-11/12 max-w-screen-2xl ">
                 <nav  className="flex justify-between px-10 ">
                     <div className="font-serif text-5xl font-bold text-white items-center my-2" >
                          <h1>S<span className="text-yellow-500">H.</span></h1>

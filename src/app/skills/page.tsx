@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Skills() {
     return (
         <main id="skills">
-            <div className="text-center  py-16">
+            <div className="text-center  py-16 mx-auto max-w-screen-2xl">
                 <section className="justify-around">
                     <h1 data-aos="zoom-in-up" className="text-white text-4xl tracking-wider font-extrabold">Skills</h1>
 

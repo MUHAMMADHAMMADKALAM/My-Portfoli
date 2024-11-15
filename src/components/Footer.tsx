@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Footer(){
     return(
-        <footer className="items-center bg-indigo-950">
-           <main className="flex flex-col justify-center md:justify-around md:flex-row items-center">
+        <footer className="items-center bg-gradient-to-r from-violet-950 via-violet-700 to-violet-950">
+           <main className="flex flex-col justify-center md:justify-around md:flex-row items-center max-w-screen-2xl mx-auto">
            <div className="text-white items-center text-center pt-5 md:pt-0">
             <h1 className="text-lg">©2024 Sheikh Muhammad Hammad.All rights reserved.</h1>
                 

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function About() {
     return (
-        <main id="about" className="bg-white mt-8 justify-around">
-            <div className=" py-16 md:px-8 lg:px-44 px-8">
+        <main id="about" className="bg-white mt-8 justify-around ">
+            <div className=" py-16 md:px-8 lg:px-44 px-8 mx-auto max-w-screen-2xl">
                 <section className="text-center py-12">
                     <div className=" mx-2 py-10">
                         <h1 data-aos="zoom-in-up" className="text-violet-950 font-semibold text-4xl md:text-6xl">

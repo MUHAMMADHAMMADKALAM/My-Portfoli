@@ -13,7 +13,7 @@ import { useEffect } from "react";
 
 
 export default function Home() {
-  useEffect (() => {
+  useEffect(() => {
     AOS.init({
       easing: "ease-out-back",
       duration: 1200,
@@ -23,12 +23,12 @@ export default function Home() {
       offset: 160,
     });
     AOS.refresh()
-  } , []);
+  }, []);
 
 
   return (
-    <main className=" justify-around pt-1">
-      <section className="mt-40 mx-10 md:mx-14 md:flex-row justify-around flex flex-col-reverse ">
+    <main className=" justify-around pt-1 ">
+      <section className="mt-40 mx-10 md:mx-14 pb-20 md:flex-row justify-around flex flex-col-reverse max-w-screen-2xl 2xl:mx-auto ">
 
         {/* Text Section */}
         <div className="text-white text-center mt-16 md:mt-20 md:text-left justify-around ">
@@ -72,15 +72,17 @@ export default function Home() {
 
         {/* Image Section */}
         <div data-aos="zoom-in-up" className=" flex justify-center items-center ">
-          <Image className="object-cover rounded-full border-4 border-yellow-500 shadow-lg shadow-amber-400 md:h-[420px] md:w-[300px] lg:h-[480px] lg:w-[320px]" src={'/my-dp.jpg'} alt="profile picture"
+          <Image
+            className="object-cover rounded-full border-4 border-yellow-500 shadow-lg shadow-amber-400 md:h-[410px] md:w-[290px] lg:h-[420px] lg:w-[300px]"
+            src={'/images/my-dp.png'} alt="profile picture"
             height={400} width={320} />
         </div>
 
       </section>
-    
+
       <About />
       <Skills />
-      <Projects /> 
+      <Projects />
       <ContactUs />
 
 
